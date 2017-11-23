@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1827DBBF1FC6625E008088C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827DBBE1FC6625E008088C6 /* AppDelegate.swift */; };
+		1827DBC11FC6625E008088C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827DBC01FC6625E008088C6 /* ViewController.swift */; };
+		1827DBC41FC6625F008088C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1827DBC21FC6625F008088C6 /* Main.storyboard */; };
+		1827DBC61FC6625F008088C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1827DBC51FC6625F008088C6 /* Assets.xcassets */; };
+		1827DBC91FC6625F008088C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1827DBC71FC6625F008088C6 /* LaunchScreen.storyboard */; };
+		1827DBD41FC66260008088C6 /* Swift____DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827DBD31FC66260008088C6 /* Swift____DemoTests.swift */; };
+		1827DBDF1FC66262008088C6 /* Swift____DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827DBDE1FC66262008088C6 /* Swift____DemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1827DBD01FC66260008088C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1827DBB31FC6625E008088C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1827DBBA1FC6625E008088C6;
+			remoteInfo = "Swift手势密码Demo";
+		};
+		1827DBDB1FC66261008088C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1827DBB31FC6625E008088C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1827DBBA1FC6625E008088C6;
+			remoteInfo = "Swift手势密码Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1827DBBB1FC6625E008088C6 /* Swift手势密码Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift手势密码Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1827DBBE1FC6625E008088C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1827DBC01FC6625E008088C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1827DBC31FC6625F008088C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1827DBC51FC6625F008088C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1827DBC81FC6625F008088C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1827DBCA1FC6625F008088C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1827DBCF1FC66260008088C6 /* Swift手势密码DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift手势密码DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1827DBD31FC66260008088C6 /* Swift____DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift____DemoTests.swift"; sourceTree = "<group>"; };
+		1827DBD51FC66261008088C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1827DBDA1FC66261008088C6 /* Swift手势密码DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift手势密码DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1827DBDE1FC66262008088C6 /* Swift____DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift____DemoUITests.swift"; sourceTree = "<group>"; };
+		1827DBE01FC66262008088C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1827DBB81FC6625E008088C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1827DBCC1FC66260008088C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1827DBD71FC66261008088C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1827DBB21FC6625E008088C6 = {
+			isa = PBXGroup;
+			children = (
+				1827DBBD1FC6625E008088C6 /* Swift手势密码Demo */,
+				1827DBD21FC66260008088C6 /* Swift手势密码DemoTests */,
+				1827DBDD1FC66261008088C6 /* Swift手势密码DemoUITests */,
+				1827DBBC1FC6625E008088C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1827DBBC1FC6625E008088C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1827DBBB1FC6625E008088C6 /* Swift手势密码Demo.app */,
+				1827DBCF1FC66260008088C6 /* Swift手势密码DemoTests.xctest */,
+				1827DBDA1FC66261008088C6 /* Swift手势密码DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1827DBBD1FC6625E008088C6 /* Swift手势密码Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1827DBBE1FC6625E008088C6 /* AppDelegate.swift */,
+				1827DBC01FC6625E008088C6 /* ViewController.swift */,
+				1827DBC21FC6625F008088C6 /* Main.storyboard */,
+				1827DBC51FC6625F008088C6 /* Assets.xcassets */,
+				1827DBC71FC6625F008088C6 /* LaunchScreen.storyboard */,
+				1827DBCA1FC6625F008088C6 /* Info.plist */,
+			);
+			path = "Swift手势密码Demo";
+			sourceTree = "<group>";
+		};
+		1827DBD21FC66260008088C6 /* Swift手势密码DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1827DBD31FC66260008088C6 /* Swift____DemoTests.swift */,
+				1827DBD51FC66261008088C6 /* Info.plist */,
+			);
+			path = "Swift手势密码DemoTests";
+			sourceTree = "<group>";
+		};
+		1827DBDD1FC66261008088C6 /* Swift手势密码DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1827DBDE1FC66262008088C6 /* Swift____DemoUITests.swift */,
+				1827DBE01FC66262008088C6 /* Info.plist */,
+			);
+			path = "Swift手势密码DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1827DBBA1FC6625E008088C6 /* Swift手势密码Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1827DBE31FC66262008088C6 /* Build configuration list for PBXNativeTarget "Swift手势密码Demo" */;
+			buildPhases = (
+				1827DBB71FC6625E008088C6 /* Sources */,
+				1827DBB81FC6625E008088C6 /* Frameworks */,
+				1827DBB91FC6625E008088C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift手势密码Demo";
+			productName = "Swift手势密码Demo";
+			productReference = 1827DBBB1FC6625E008088C6 /* Swift手势密码Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1827DBCE1FC66260008088C6 /* Swift手势密码DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1827DBE61FC66262008088C6 /* Build configuration list for PBXNativeTarget "Swift手势密码DemoTests" */;
+			buildPhases = (
+				1827DBCB1FC66260008088C6 /* Sources */,
+				1827DBCC1FC66260008088C6 /* Frameworks */,
+				1827DBCD1FC66260008088C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1827DBD11FC66260008088C6 /* PBXTargetDependency */,
+			);
+			name = "Swift手势密码DemoTests";
+			productName = "Swift手势密码DemoTests";
+			productReference = 1827DBCF1FC66260008088C6 /* Swift手势密码DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1827DBD91FC66261008088C6 /* Swift手势密码DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1827DBE91FC66262008088C6 /* Build configuration list for PBXNativeTarget "Swift手势密码DemoUITests" */;
+			buildPhases = (
+				1827DBD61FC66261008088C6 /* Sources */,
+				1827DBD71FC66261008088C6 /* Frameworks */,
+				1827DBD81FC66261008088C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1827DBDC1FC66261008088C6 /* PBXTargetDependency */,
+			);
+			name = "Swift手势密码DemoUITests";
+			productName = "Swift手势密码DemoUITests";
+			productReference = 1827DBDA1FC66261008088C6 /* Swift手势密码DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1827DBB31FC6625E008088C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					1827DBBA1FC6625E008088C6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					1827DBCE1FC66260008088C6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1827DBBA1FC6625E008088C6;
+					};
+					1827DBD91FC66261008088C6 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1827DBBA1FC6625E008088C6;
+					};
+				};
+			};
+			buildConfigurationList = 1827DBB61FC6625E008088C6 /* Build configuration list for PBXProject "Swift手势密码Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1827DBB21FC6625E008088C6;
+			productRefGroup = 1827DBBC1FC6625E008088C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1827DBBA1FC6625E008088C6 /* Swift手势密码Demo */,
+				1827DBCE1FC66260008088C6 /* Swift手势密码DemoTests */,
+				1827DBD91FC66261008088C6 /* Swift手势密码DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1827DBB91FC6625E008088C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1827DBC91FC6625F008088C6 /* LaunchScreen.storyboard in Resources */,
+				1827DBC61FC6625F008088C6 /* Assets.xcassets in Resources */,
+				1827DBC41FC6625F008088C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1827DBCD1FC66260008088C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1827DBD81FC66261008088C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1827DBB71FC6625E008088C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1827DBC11FC6625E008088C6 /* ViewController.swift in Sources */,
+				1827DBBF1FC6625E008088C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1827DBCB1FC66260008088C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1827DBD41FC66260008088C6 /* Swift____DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1827DBD61FC66261008088C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1827DBDF1FC66262008088C6 /* Swift____DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1827DBD11FC66260008088C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1827DBBA1FC6625E008088C6 /* Swift手势密码Demo */;
+			targetProxy = 1827DBD01FC66260008088C6 /* PBXContainerItemProxy */;
+		};
+		1827DBDC1FC66261008088C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1827DBBA1FC6625E008088C6 /* Swift手势密码Demo */;
+			targetProxy = 1827DBDB1FC66261008088C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1827DBC21FC6625F008088C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1827DBC31FC6625F008088C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1827DBC71FC6625F008088C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1827DBC81FC6625F008088C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1827DBE11FC66262008088C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1827DBE21FC66262008088C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1827DBE41FC66262008088C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift手势密码Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Swift----Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1827DBE51FC66262008088C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift手势密码Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Swift----Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1827DBE71FC66262008088C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift手势密码DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Swift----DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift手势密码Demo.app/Swift手势密码Demo";
+			};
+			name = Debug;
+		};
+		1827DBE81FC66262008088C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift手势密码DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Swift----DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift手势密码Demo.app/Swift手势密码Demo";
+			};
+			name = Release;
+		};
+		1827DBEA1FC66262008088C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift手势密码DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Swift----DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift手势密码Demo";
+			};
+			name = Debug;
+		};
+		1827DBEB1FC66262008088C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swift手势密码DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "a.Swift----DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swift手势密码Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1827DBB61FC6625E008088C6 /* Build configuration list for PBXProject "Swift手势密码Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1827DBE11FC66262008088C6 /* Debug */,
+				1827DBE21FC66262008088C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1827DBE31FC66262008088C6 /* Build configuration list for PBXNativeTarget "Swift手势密码Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1827DBE41FC66262008088C6 /* Debug */,
+				1827DBE51FC66262008088C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1827DBE61FC66262008088C6 /* Build configuration list for PBXNativeTarget "Swift手势密码DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1827DBE71FC66262008088C6 /* Debug */,
+				1827DBE81FC66262008088C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1827DBE91FC66262008088C6 /* Build configuration list for PBXNativeTarget "Swift手势密码DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1827DBEA1FC66262008088C6 /* Debug */,
+				1827DBEB1FC66262008088C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1827DBB31FC6625E008088C6 /* Project object */;
+}
