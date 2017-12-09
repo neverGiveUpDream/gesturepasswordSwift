@@ -14,6 +14,15 @@
 		1827DBC91FC6625F008088C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1827DBC71FC6625F008088C6 /* LaunchScreen.storyboard */; };
 		1827DBD41FC66260008088C6 /* Swift____DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827DBD31FC66260008088C6 /* Swift____DemoTests.swift */; };
 		1827DBDF1FC66262008088C6 /* Swift____DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827DBDE1FC66262008088C6 /* Swift____DemoUITests.swift */; };
+		1827DBF11FC66532008088C6 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1827DBEE1FC66531008088C6 /* circle.png */; };
+		1827DBF21FC66532008088C6 /* gesture_node_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1827DBEF1FC66531008088C6 /* gesture_node_normal.png */; };
+		1827DBF31FC66532008088C6 /* gesture_node_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1827DBF01FC66531008088C6 /* gesture_node_pressed.png */; };
+		E6E299CE1FDB855000CE834D /* HLValidateGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6E299C81FDB855000CE834D /* HLValidateGestureViewController.xib */; };
+		E6E299CF1FDB855000CE834D /* HLFestureIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E299C91FDB855000CE834D /* HLFestureIndicator.swift */; };
+		E6E299D01FDB855000CE834D /* HLValidateGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E299CA1FDB855000CE834D /* HLValidateGestureViewController.swift */; };
+		E6E299D11FDB855000CE834D /* HLGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E299CB1FDB855000CE834D /* HLGestureViewController.swift */; };
+		E6E299D21FDB855000CE834D /* HLGestureUnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E299CC1FDB855000CE834D /* HLGestureUnlockView.swift */; };
+		E6E299D31FDB855000CE834D /* HLGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6E299CD1FDB855000CE834D /* HLGestureViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		1827DBDA1FC66261008088C6 /* Swift手势密码DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift手势密码DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1827DBDE1FC66262008088C6 /* Swift____DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift____DemoUITests.swift"; sourceTree = "<group>"; };
 		1827DBE01FC66262008088C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1827DBEE1FC66531008088C6 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		1827DBEF1FC66531008088C6 /* gesture_node_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gesture_node_normal.png; sourceTree = "<group>"; };
+		1827DBF01FC66531008088C6 /* gesture_node_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gesture_node_pressed.png; sourceTree = "<group>"; };
+		E6E299C81FDB855000CE834D /* HLValidateGestureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HLValidateGestureViewController.xib; path = "../../STJR/STJR/注册/手势密码/HLValidateGestureViewController.xib"; sourceTree = "<group>"; };
+		E6E299C91FDB855000CE834D /* HLFestureIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HLFestureIndicator.swift; path = "../../STJR/STJR/注册/手势密码/HLFestureIndicator.swift"; sourceTree = "<group>"; };
+		E6E299CA1FDB855000CE834D /* HLValidateGestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HLValidateGestureViewController.swift; path = "../../STJR/STJR/注册/手势密码/HLValidateGestureViewController.swift"; sourceTree = "<group>"; };
+		E6E299CB1FDB855000CE834D /* HLGestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HLGestureViewController.swift; path = "../../STJR/STJR/注册/手势密码/HLGestureViewController.swift"; sourceTree = "<group>"; };
+		E6E299CC1FDB855000CE834D /* HLGestureUnlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HLGestureUnlockView.swift; path = "../../STJR/STJR/注册/手势密码/HLGestureUnlockView.swift"; sourceTree = "<group>"; };
+		E6E299CD1FDB855000CE834D /* HLGestureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HLGestureViewController.xib; path = "../../STJR/STJR/注册/手势密码/HLGestureViewController.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,15 @@
 		1827DBBD1FC6625E008088C6 /* Swift手势密码Demo */ = {
 			isa = PBXGroup;
 			children = (
+				E6E299C91FDB855000CE834D /* HLFestureIndicator.swift */,
+				E6E299CC1FDB855000CE834D /* HLGestureUnlockView.swift */,
+				E6E299CB1FDB855000CE834D /* HLGestureViewController.swift */,
+				E6E299CD1FDB855000CE834D /* HLGestureViewController.xib */,
+				E6E299CA1FDB855000CE834D /* HLValidateGestureViewController.swift */,
+				E6E299C81FDB855000CE834D /* HLValidateGestureViewController.xib */,
+				1827DBEE1FC66531008088C6 /* circle.png */,
+				1827DBEF1FC66531008088C6 /* gesture_node_normal.png */,
+				1827DBF01FC66531008088C6 /* gesture_node_pressed.png */,
 				1827DBBE1FC6625E008088C6 /* AppDelegate.swift */,
 				1827DBC01FC6625E008088C6 /* ViewController.swift */,
 				1827DBC21FC6625F008088C6 /* Main.storyboard */,
@@ -233,8 +260,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1827DBC91FC6625F008088C6 /* LaunchScreen.storyboard in Resources */,
+				1827DBF21FC66532008088C6 /* gesture_node_normal.png in Resources */,
 				1827DBC61FC6625F008088C6 /* Assets.xcassets in Resources */,
 				1827DBC41FC6625F008088C6 /* Main.storyboard in Resources */,
+				1827DBF31FC66532008088C6 /* gesture_node_pressed.png in Resources */,
+				E6E299CE1FDB855000CE834D /* HLValidateGestureViewController.xib in Resources */,
+				E6E299D31FDB855000CE834D /* HLGestureViewController.xib in Resources */,
+				1827DBF11FC66532008088C6 /* circle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E299D21FDB855000CE834D /* HLGestureUnlockView.swift in Sources */,
+				E6E299D01FDB855000CE834D /* HLValidateGestureViewController.swift in Sources */,
 				1827DBC11FC6625E008088C6 /* ViewController.swift in Sources */,
 				1827DBBF1FC6625E008088C6 /* AppDelegate.swift in Sources */,
+				E6E299D11FDB855000CE834D /* HLGestureViewController.swift in Sources */,
+				E6E299CF1FDB855000CE834D /* HLFestureIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

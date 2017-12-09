@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,11 +12,39 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swift手势密码Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHF-Ra-smU">
+                                <rect key="frame" x="121" y="259" width="92" height="30"/>
+                                <state key="normal" title="验证手势密码"/>
+                                <connections>
+                                    <action selector="vailteGeturepasswordButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Ks-1k-SVW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ut5-qh-Hqa">
+                                <rect key="frame" x="121" y="189" width="92" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="UTu-Ke-xbs"/>
+                                </constraints>
+                                <state key="normal" title="创建手势密码"/>
+                                <connections>
+                                    <action selector="creatGesturepasswordButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kSN-gM-Jt6"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gHF-Ra-smU" firstAttribute="trailing" secondItem="Ut5-qh-Hqa" secondAttribute="trailing" id="0Mw-8r-nk5"/>
+                            <constraint firstItem="gHF-Ra-smU" firstAttribute="height" secondItem="Ut5-qh-Hqa" secondAttribute="height" id="GC0-eb-9H5"/>
+                            <constraint firstItem="Ut5-qh-Hqa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="169" id="NEv-Cg-Mba"/>
+                            <constraint firstItem="Ut5-qh-Hqa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="NwW-Pf-Imd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ut5-qh-Hqa" secondAttribute="trailing" constant="162" id="ett-CX-zKN"/>
+                            <constraint firstItem="gHF-Ra-smU" firstAttribute="top" secondItem="Ut5-qh-Hqa" secondAttribute="bottom" constant="40" id="lld-Td-6hW"/>
+                            <constraint firstItem="gHF-Ra-smU" firstAttribute="leading" secondItem="Ut5-qh-Hqa" secondAttribute="leading" id="prP-4n-xtY"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
